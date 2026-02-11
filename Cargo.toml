@@ -1,0 +1,12 @@
+[package]
+name = "sixtyfive"
+description = "An interpreter for the Sixtyfive programming language, designed for teaching computer science to moths."
+repository = "https://github.com/sixtyfive-rs/sixtyfive"
+license = "WTFPL"
+version = "0.6.5"
+edition = "2024"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
