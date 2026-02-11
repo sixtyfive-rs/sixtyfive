@@ -5,6 +5,9 @@ repository = "https://github.com/sixtyfive-rs/sixtyfive"
 license = "WTFPL"
 version = "0.6.5"
 edition = "2024"
+exclude = [
+    "assets/*",
+]
 
 [profile.release]
 lto = true
